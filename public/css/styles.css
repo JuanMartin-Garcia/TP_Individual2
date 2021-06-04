@@ -17,12 +17,27 @@ main{
 
 .main-header {
     background-color: #eac926;
-    padding: 30px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.header{
+    margin: 0px 80px;
+    
 }
 
 .copy-header {
+    align-self: flex-end;
     text-align: center;
     font-weight: bold;
+    margin-left: 20px;
+    align-items: center;
+    width: 30%;
+     
+}
+
+.copy-header p{
+    text-align: end;
 }
 
 .hamburguer-button{
@@ -31,19 +46,24 @@ main{
 }
 
 .logo-home{
-    display: flex;
     border: 1px solid;
-    width: 10vw;
+    width: 10%;
+    margin-right: 20px;
 }
 
 .logo-busqueda{
     display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .Barra-búsqueda{
-    width: 50%;
+    width: 60%;
     border: 1px solid;
-    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 input {
@@ -189,12 +209,12 @@ footer{
     }
 
     .logo-home{
-        width: 50%;
+        width: 30%;
         height: auto;
     }
     .Barra-búsqueda{
         display: flex;
-        width: 50%;
+        width: 60%;
         height: auto;
     }
     .hamburguer-button{
@@ -215,6 +235,15 @@ footer{
 
     .copy-header{
         width: 100%;
+    }
+
+    .copy-header p{
+        text-align: center;
+    }
+    
+    
+    .header{
+    margin: 0px 80px;
     }
 
     .Producto{
@@ -247,7 +276,15 @@ footer{
     }
 
     .Producto img{
-        width: 80vw;
+        width: 70vw;
         height: auto;
+    }
+
+    .header{
+        margin: 0px 60px;
+        }
+    
+    .logo-home{
+        width: 30%;
     }
 }
