@@ -134,6 +134,7 @@ input {
 
 .banner img{
     width: 100%;
+    
 }
 
 .Producto{
@@ -161,10 +162,13 @@ input {
 }
 
 .titulo2{
+    text-align: left;
     font-size: 24px;
     padding-top: 20px;
     background-color: whitesmoke;
     margin-top: 0px;
+    margin-bottom: 35px;
+    margin-left: 120px;
 }
 
 .precios{
@@ -263,6 +267,11 @@ footer{
         
     .header{
     margin: 0px 80px;
+    }
+
+    .titulo2{
+        text-align: center;
+        margin-left: 0px;
     }
 
     .Producto{
