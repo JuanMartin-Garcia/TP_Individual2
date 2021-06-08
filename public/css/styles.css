@@ -399,3 +399,54 @@ footer{
 
     
 }
+
+/* CSS REGISTER */
+.form-registro {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:black
+        
+} 
+
+
+.controls{
+    width: 100%;
+    background: white;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    color: black;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 16px;
+}
+
+.botons{
+    font-size: 20px;
+    text-align: center;
+    background-color: grey;
+    margin: auto;
+}
+
+.perfil-usuario{
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-button{
+    height: 10px;
+    width: 20px;
+   
+}
+
+.intereses{
+    display: flex;
+}
+
+.checkbox{
+    height: 10px;
+    width: 20px;
+}
