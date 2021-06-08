@@ -195,7 +195,7 @@ input {
     background-color: whitesmoke;
     margin-top: 0px;
     margin-bottom: 35px;
-    margin-left: 120px;
+    margin-left: 70px;
 }
 
 .precios{
@@ -253,10 +253,18 @@ footer{
     text-align: center;
     align-self: flex-end;
 }     
+
+@media (min-width:1060) and (max-width:1100px){
+    .Producto-Section{
+        margin:0px;
+    }
+}
+
 @media (min-width: 1064px) {
     .Producto-Section{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        margin: 50px;
 }
 }
 
