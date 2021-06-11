@@ -20,9 +20,10 @@
             <div class="logo-home">
                 <img  src="/img/logo-mercado-liebre.svg">
             </div>
-            <div class="Barra-búsqueda">
-                <input type="text" placeholder="Buscar productos, marcas"> <button class="form-control fa fa-search" aria-hidden="true"></button>  
-            </div>  
+            <form action="/search" method="GET" class="search-form">
+                <input type="text" name="keywords" placeholder="Buscar productos, marcas y más" class="search-form-input">
+                <button type="submit" class="search-form-button"><i class="fas fa-search"></i></button>
+            </form> 
             <div class="copy-header">
                 <p>Comprá en cuotas y sin tarjeta de crédito</p><i class="fa fa-hand-holding-usd"></i>
             </div>
